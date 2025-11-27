@@ -7,3 +7,6 @@ def dashboard(request):
 
 def new(request):
     return render(request, 'new.html')
+
+def fresh(request):
+    return render(request, 'fresh.html')
